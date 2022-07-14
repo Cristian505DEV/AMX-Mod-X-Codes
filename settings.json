@@ -1,0 +1,19 @@
+{
+  "workbench.colorTheme": "freeCodeCamp Dark Theme",
+  "amxxpawn.compiler.executablePath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Half-Life\\cstrike\\addons\\amxmodx\\scripting/amxxpc.exe",
+  "amxxpawn.compiler.includePaths": [
+    "C:/Program Files (x86)/Steam/steamapps/common/Half-Life/cstrike/addons/amxmodx/scripting/include"
+  ],
+  "amxxpawn.compiler.outputPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Half-Life\\cstrike\\addons\\amxmodx\\plugins",
+  "amxxpawn.compiler.outputType": "path",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "explorer.confirmDelete": false,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "explorer.confirmDragAndDrop": false,
+  "amxxpawn.compiler.options": [
+  
+  ]
+}
