@@ -297,9 +297,9 @@ public CPistol__Idle_Pre(iPistol)
 {
 	if(!IsValidEntity(iPistol) || !IsCustomPistol(iPistol) || get_pdata_float(iPistol, m_flTimeWeaponIdle, linux_diff_weapon) > 0.0) return HAM_IGNORED;
 	
-	static pPlayer; pPlayer = get_pdata_cbase(iPistol, m_pPlayer, linux_diff_weapon);
+	static iPlayer; iPlayer = get_pdata_cbase(iPistol, m_pPlayer, linux_diff_weapon);
 
-	UTIL_SendWeaponAnim(pPlayer, PISTOL_ANIM_IDLE);
+	UTIL_SendWeaponAnim(iPlayer, PISTOL_ANIM_IDLE);
 	set_pdata_float(iPistol, m_flTimeWeaponIdle, PISTOL_ANIM_IDLE_TIME, linux_diff_weapon);
 
 	return HAM_SUPERCEDE;
